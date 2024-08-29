@@ -1,6 +1,7 @@
 
 # Build
 Run command `dotnet build` in the root directory of the project.
+Tests are based on dotnet 8 framework.
 
 # Setup
 
