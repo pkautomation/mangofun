@@ -38,6 +38,12 @@ public class RequestBuilder
         return this;
     }
 
+    public RequestBuilder WithBody(string body)
+    {
+        Request.AddBody(body);
+        return this;
+    }
+
     public RequestBuilder WithJsonBody(object bodyJson)
     {
         Request.AddJsonBody(bodyJson);
